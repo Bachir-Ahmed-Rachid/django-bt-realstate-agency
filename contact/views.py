@@ -59,7 +59,7 @@ from .forms import ContactForm
 #         return HttpResponseRedirect(reverse('listing', args=[listing_id]))
 
 
-def Contact(request):
+def contact(request):
     form=ContactForm
     return HttpResponseRedirect(reverse('listings'))
 
